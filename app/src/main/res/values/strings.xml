@@ -1,6 +1,9 @@
 <resources>
-    <string name="app_name">GroupChat121</string>
+    <string name="app_name">MeleeMatchFinder</string>
     <string name="name_prompt">Please enter a nickname:</string>
     <string name="refresh">refresh</string>
     <string name="send">send</string>
+    <string name="tag">Tag</string>
+    <string name="name">name</string>
+    <string name="alert">Alert</string>
 </resources>

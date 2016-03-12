@@ -139,7 +139,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        Intent intent = new Intent(this, ChatActivity.class);
+        Intent intent = new Intent(this, FriendList.class);
         EditText editText = (EditText) findViewById(R.id.nickname);
         String nickname = editText.getText().toString();
         if (!nickname.equals("")) {

@@ -23,7 +23,7 @@
             </intent-filter>
 
         </activity>
-        <activity android:name="com.meleeChat.ChatActivity"
+        <activity android:name=".FriendList"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:windowSoftInputMode="stateHidden|adjustPan">
         </activity>

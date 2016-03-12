@@ -10,7 +10,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -31,7 +30,7 @@ import retrofit2.http.Query;
 /**
  * Created by nadia on 2/19/16.
  */
-public class ChatActivity extends AppCompatActivity {
+public class FriendList extends AppCompatActivity {
     private SharedPreferences settings;
     private static final String LOG_TAG = "CHAT_ACTIVITY";
     private String user_id;
@@ -52,54 +51,6 @@ public class ChatActivity extends AppCompatActivity {
         public String content;
         public String user;
         public String id;
-    }
-
-    public void sendMessage(View v) {
-        //Magic HTTP stuff
-        HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
-        logging.setLevel(HttpLoggingInterceptor.Level.BODY);
-
-        OkHttpClient httpClient = new OkHttpClient.Builder()
-                .addInterceptor(logging)
-                .build();
-        Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://luca-teaching.appspot.com/localmessages/default/")
-                .addConverterFactory(GsonConverterFactory.create())    //parse Gson string
-                .client(httpClient)    //add logging
-                .build();
-
-        MessageService service = retrofit.create(MessageService.class);
-
-
-        final EditText editText = (EditText) findViewById(R.id.message_box);
-        String message = editText.getText().toString();
-        if (!message.equals("")) {
-            SecureRandomString srs = new SecureRandomString();
-            String message_id = srs.nextString();
-
-            Call<Messages> queryResponseCall =
-                    service.post_Message(lat, lon, nickname, user_id, message, message_id);
-
-
-            //Call retrofit asynchronously
-            queryResponseCall.enqueue(new Callback<Messages>() {
-                @Override
-                public void onResponse(Response<Messages> response) {
-                    //if (response.body().result.equals("ok") && response.code() == 200) {
-
-                    Log.i(LOG_TAG, "Code is: " + response.code());
-                    Log.i(LOG_TAG, "The result is: " + response.body().result);
-                    //}
-                    editText.setText("");
-                    refresh(findViewById(R.id.chat));
-                }
-
-                @Override
-                public void onFailure(Throwable t) {
-                    // Log error here since request failed
-                }
-            });
-        }
     }
 
     public void refresh(View v) {
@@ -149,8 +100,8 @@ public class ChatActivity extends AppCompatActivity {
 
     private void populateList() {
         aList = new ArrayList<ListElement>();
-        aa = new MyAdapter(this, R.layout.friend_message, aList);
-        ListView myListView = (ListView) findViewById(R.id.messages);
+        aa = new MyAdapter(this, R.layout.player_info, aList);
+        ListView myListView = (ListView) findViewById(R.id.player_list);
 
         for (int i = (responses.size() - 1); i >= 0; i--) {
             //System.out.println("SIZE: " + i);
@@ -179,6 +130,7 @@ public class ChatActivity extends AppCompatActivity {
 
     @Override
     protected void onResume() {
+        getSupportActionBar().setTitle("Player List");
         Bundle b = getIntent().getExtras();
         lat = b.getFloat("LAT");
         lon = b.getFloat("LON");
@@ -231,8 +183,8 @@ public class ChatActivity extends AppCompatActivity {
             }
 
             // Fills in the view.
-            TextView tv = (TextView) newView.findViewById(R.id.friend_message);
-            TextView tv2 = (TextView) newView.findViewById(R.id.friend_name);
+            TextView tv = (TextView) newView.findViewById(R.id.player_tag);
+            TextView tv2 = (TextView) newView.findViewById(R.id.player_name);
             tv.setText(w.content);
             tv2.setText(w.user);
             tv.setBackgroundColor(R.color.me);
@@ -255,4 +207,4 @@ public class ChatActivity extends AppCompatActivity {
         }//end getView
 
     } //end MyAdapter class
-}//end ChatActivity class
+}//end FriendList class
