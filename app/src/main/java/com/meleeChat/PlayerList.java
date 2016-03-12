@@ -30,7 +30,7 @@ import retrofit2.http.Query;
 /**
  * Created by nadia on 2/19/16.
  */
-public class FriendList extends AppCompatActivity {
+public class PlayerList extends AppCompatActivity {
     private SharedPreferences settings;
     private static final String LOG_TAG = "CHAT_ACTIVITY";
     private String user_id;
@@ -141,7 +141,7 @@ public class FriendList extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chat);
+        setContentView(R.layout.activity_player_list);
         settings = PreferenceManager.getDefaultSharedPreferences(this);
         user_id = settings.getString("user_id", null);
         //user_id = "20xx";
@@ -187,8 +187,8 @@ public class FriendList extends AppCompatActivity {
             TextView tv2 = (TextView) newView.findViewById(R.id.player_name);
             tv.setText(w.content);
             tv2.setText(w.user);
-            tv.setBackgroundColor(R.color.me);
-            tv2.setBackgroundColor(R.color.me);
+            //tv.setBackgroundColor(R.color.me);
+            //tv2.setBackgroundColor(R.color.me);
 
 
             System.out.println("w.id: " + w.id + "\nuser_id: " + user_id);
@@ -207,4 +207,4 @@ public class FriendList extends AppCompatActivity {
         }//end getView
 
     } //end MyAdapter class
-}//end FriendList class
+}//end PlayerList class
