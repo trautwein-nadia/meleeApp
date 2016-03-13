@@ -1,5 +1,6 @@
 package com.meleeChat;
 
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +8,7 @@ import android.util.Base64;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
@@ -105,4 +107,34 @@ public class MainActivity extends AppCompatActivity {
             //process message
         }
     }
+    /*
+    public void onClick(View v) {
+        if (!getLocationPermission()) {
+            int duration = Toast.LENGTH_SHORT;
+            Toast toast = Toast.makeText(getApplicationContext(), "Please enable location or wait until location is more accurate", duration);
+            toast.show();
+            return;
+        }
+
+        Intent intent = new Intent(this, MenuActivity.class);
+        EditText editText = (EditText) findViewById(R.id.nickname);
+        String nickname = editText.getText().toString();
+        if (!nickname.equals("")) {
+            SharedPreferences settings = PreferenceManager.getDefaultSharedPreferences(this);
+            SharedPreferences.Editor editor = settings.edit();
+            editor.putString("nickname", nickname);
+            editor.commit();
+            Bundle b = new Bundle();
+            b.putFloat("LAT", (float) lat);
+            b.putFloat("LON", (float) lon);
+            intent.putExtras(b);
+            startActivity(intent);
+        }
+        else {
+            int duration = Toast.LENGTH_SHORT;
+            Toast toast = Toast.makeText(getApplicationContext(), "Please enter a nickname", duration);
+            toast.show();
+        }
+    }
+    */
 }
