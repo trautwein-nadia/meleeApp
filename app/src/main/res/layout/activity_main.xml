@@ -15,25 +15,65 @@
         android:id="@+id/name_prompt"
         android:textColor="#000000"
         android:textSize="24sp"
-        android:text="@string/name_prompt" />
+        android:text="@string/name_prompt"
+        android:layout_above="@+id/username"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="64dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/start_chat"
-        android:layout_marginTop="117dp"
         android:onClick="onClick"
-        android:layout_below="@+id/name_prompt"
+        android:enabled="true"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:enabled="true" />
+        android:layout_marginBottom="28dp"
+        android:text="@string/guest" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
-        android:id="@+id/nickname"
-        android:layout_below="@+id/name_prompt"
+        android:id="@+id/username"
+        android:text="21pretzels"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/key"
+        android:layout_marginBottom="59dp"
+        android:layout_above="@+id/start_chat"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="37dp" />
+        android:text="FlyxNHAwJNMvcoibWQvxIp4jaFcu28tIgh0eUQak" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:text="@string/api_prompt"
+        android:layout_above="@+id/key"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/TO"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/username"
+        android:layout_alignStart="@+id/username"
+        android:textSize="50sp"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
 </RelativeLayout>

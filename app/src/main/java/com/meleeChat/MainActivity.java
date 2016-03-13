@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Base64;
 import android.util.Log;
+import android.view.View;
+import android.widget.EditText;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
@@ -20,7 +22,8 @@ import javax.net.ssl.HttpsURLConnection;
 
 public class MainActivity extends AppCompatActivity {
     private static String username;
-    private static String password;
+    //private static String password;
+    private static String APIkey;
     private static String responseMessage;
     private static String input;
     private static int responseCode;
@@ -30,15 +33,38 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        new Feedback().execute("https://api.challonge.com/v1/tournaments.json");
     }
+
+    private boolean getLoginInfo() {
+        EditText editText = (EditText) findViewById(R.id.username);
+        username = editText.getText().toString();
+
+        editText = (EditText) findViewById(R.id.key);
+        APIkey = editText.getText().toString();
+
+        if (username.equals("") || APIkey.equals("")) {
+            return false;
+        }
+        return true;
+    }
+
+    public void onClick(View v) {
+        if (getLoginInfo()) {
+            //disable button
+            new Feedback().execute("https://api.challonge.com/v1/tournaments.json");
+        }
+        else {
+            //make a toast saying try again and fill out shit
+        }
+    }
+
 
     private class Feedback extends AsyncTask<String, Void, String> {
 
         @Override
         protected String doInBackground(String... urls) {
             HttpURLConnection urlConnection;
-            String userpass = "21pretzels:FlyxNHAwJNMvcoibWQvxIp4jaFcu28tIgh0eUQak";
+            String userpass = username + ":" + APIkey;
             String result = "";
             // do above Server call here
             try
