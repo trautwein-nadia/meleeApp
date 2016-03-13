@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_8974edcb765cd90d7ac719ced121fc9d5b6f5597.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-games-7.0.0_cfbf94c01eaa862ed266e957924f1d1bffcc55dc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_419fb323ca552ed67bc1eef0ee17ecb782623e27.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.1_df3e1dc0f349fc490df1838982e41bd97f51d0b8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-cast-7.0.0_09b2f84308cce926f8bffb649234098a9eda9cb8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-7.0.0_bc718587f428e481a143192f99c40ae0e54a036f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wearable-7.0.0_320fe1d0aa275a8a7d0a958383071c56ee1a105b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-identity-7.0.0_1d3b91dcc6499a2ee676fe8876446f2f58678bed.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_3d244fe9094be2c1d718b9ddd1d5de332fb8de2f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.12\6ec0bbd3e161a73ed672284b587fd32309a86d7a\tubesock-0.0.12.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6ec0bbd3e161a73ed672284b587fd32309a86d7a">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\tubesock-0.0.12_49bfbb64e9177588381e33c9d6cc29cbb8fa64c3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-7.0.0_a20b0908acc74ae294ca671e63ca98885639d0e5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wallet-7.0.0_85a54ff4439c54cb3b6ac5f181c261cfe0caee56.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\jackson-core-2.2.2_6cdb205489ac4f544aab51ad26c59336b2be2d06.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.0.0-RC1\be7e96331952019f16dc52dce09ab25df29353d7\okhttp-3.0.0-RC1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="be7e96331952019f16dc52dce09ab25df29353d7">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\okhttp-3.0.0-RC1_11535655dd59afd0ad746e799807e4c1ed9f85b1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\jackson-databind-2.2.2_f7aeeeae38f50ca5b070cb528e62b537bb757b6f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-safetynet-7.0.0_9544df8318e47f7df35f221ff07b928ab1ca70a7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-7.0.0_fc56235079ec4a7474311ceb82eeadcc9bf39732.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-drive-7.0.0_fea4371ba7c69e37e01034afff4e7ad9a8a16ff8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-plus-7.0.0_23c19706db470471de753b685d6249edc1c9b754.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-jvm\2.5.1\11ea7eeda00b1bb92accba250ee7c8740bdebc19\firebase-client-jvm-2.5.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="11ea7eeda00b1bb92accba250ee7c8740bdebc19">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\firebase-client-jvm-2.5.1_5c14678d26b04356cf72ab5626c24ab92f880b97.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.1.1_b9e9b5b926d0817679620113205fedb5fa91ce1e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-7.0.0_2a2adebff50fa6bf1409356cf667574a342880f0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.0-beta3\97675641051febfee098903cc0eff62f2826e34e\retrofit-2.0.0-beta3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="97675641051febfee098903cc0eff62f2826e34e">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\retrofit-2.0.0-beta3_2c6e22a3cc3687c21e89b1faca48eeb2abf1ab1f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-7.0.0_d83729f1a9960ef227ff9020cbdd71de7923cb24.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-panorama-7.0.0_e2d20493780c99f88c5d2e6e4e7c6fd152a53a02.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-nearby-7.0.0_16e89efdcd3fc006bf85c860de26473b17eabc61.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-7.0.0_e73ae0714512930732edf94dd43d124cae3c1a9c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-android\2.5.1\8c94ae916de454be497782505e3e6fd437a28b95\firebase-client-android-2.5.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8c94ae916de454be497782505e3e6fd437a28b95">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\firebase-client-android-2.5.1_60ebf6c4740e84d08dd77c25a16259012006e39b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_75444fe78a4386e2f8eb9084ef9b668ff81a99ca.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\gson-2.4_56e6c4cfbef4ccda5c93a98edff639e78544df50.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\jackson-annotations-2.2.2_dcb60b201314b096608bed2b49d1204f202613fb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appstate-7.0.0_bcbd29182865b49db2e0376a53cfd2bb869867d3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.0-beta3\8bff75d7360aaa3866f1e6949c877dfcc2b3d3e2\converter-gson-2.0.0-beta3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8bff75d7360aaa3866f1e6949c877dfcc2b3d3e2">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\converter-gson-2.0.0-beta3_69aaebb6efa28cd38eb633715782ff9f30e8caf6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\okio-1.6.0_cf2e5d81356ca1656cd28f636da66786dcda90b2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.0.0-RC1\83fed2e3554b8bacf8209bc22b62d76d4f674533\logging-interceptor-3.0.0-RC1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="83fed2e3554b8bacf8209bc22b62d76d4f674533">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\logging-interceptor-3.0.0-RC1_798136af5ccab1dddbe57a82b197a6162af90f90.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-7.0.0_f436fcab969427785f5944ad448013dae87b1264.jar" />
+    </item>
+    <item
+        jar="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="C:\Users\Eric\Documents\Code\CS121\meleeApp\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-fitness-7.0.0_4e233634d7edc637b2c546934e282f8f74fad4c5.jar" />
+    </item>
+
+</items>
